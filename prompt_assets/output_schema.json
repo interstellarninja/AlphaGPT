@@ -1,0 +1,21 @@
+{
+    "ticker": "<ticker>",
+    "stock_rating": "<rating>; <analyst_rationale>",
+    "target_price": "<price>",
+    "sentiment": "<sentiment>",
+    "key_catalysts": [
+        "<catalyst_1>; <comment>",
+        "<catalyst_2>; <comment>",
+        "<catalyst_3>; <comment>"
+    ],
+    "key_kpis": [
+        "<kpi_1>;<comment>",
+        "<kpi_2>;<comment>",
+        "<kpi_3>;<comment>"
+    ],
+    "portfolio_action": "<long_short_action>; <reason>",
+    "broker_name": [
+        "<source_1>",
+        "<source_2>"
+    ]
+}

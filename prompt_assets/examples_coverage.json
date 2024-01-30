@@ -1,0 +1,62 @@
+[
+    {
+        "ticker": "AMD",
+        "stock_rating": "Buy; Strong revenue growth",
+        "target_price": "$190",
+        "sentiment": "Positive",
+        "key_catalysts": [
+          "Data center growth; Driving revenues",
+          "New product launches; Expanding TAM",
+          "AI partnerships; Leveraging leadership"
+        ],
+        "key_kpis": [
+          "Revenue growth; >29% YoY",
+          "Gross margins; >50%",
+          "Free cash flows; $1.3B TTM"
+        ],
+        "portfolio_action": "Add Long; Well-positioned for long-term growth",
+        "broker_name": [
+          "Seeking Alpha"
+        ]
+      },
+      {
+        "ticker": "META",
+        "stock_rating": "Buy; Strong growth potential",
+        "target_price": "$300",
+        "sentiment": "Positive",
+        "key_catalysts": [
+          "Metaverse investments; Driving future growth",
+          "Ad trends improving; Higher ad spending",
+          "New subscription service; Additional revenue stream"
+        ],
+        "key_kpis": [
+          "Revenue growth; 23% increase in Q3",
+          "EPS growth; 168% increase in Q3",
+          "Operating margins; Expanding"
+        ],
+        "portfolio_action": "Add Long; Well-positioned for long-term growth",
+        "broker_name": [
+          "Seeking Alpha"
+        ]
+      },
+      {
+        "ticker": "AAPL",
+        "stock_rating": "Buy; Strong services growth and product lineup",
+        "target_price": "No relevant information",
+        "sentiment": "Positive",
+        "key_catalysts": [
+          "Services growth; Topping $85 billion revenue",
+          "New product launches; Driving growth",
+          "China stimulus; Could help performance"
+        ],
+        "key_kpis": [
+          "Services revenue; Bright spot in earnings",
+          "R&D expense; Increased 8% YoY",
+          "Revenue; Declined close to 1%"
+        ],
+        "portfolio_action": "Add Long; Well-positioned for long-term growth",
+        "broker_name": [
+          "Seeking Alpha"
+        ]
+      }
+]

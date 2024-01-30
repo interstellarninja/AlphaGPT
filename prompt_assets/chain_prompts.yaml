@@ -1,0 +1,23 @@
+Chain_of_density: |
+  You will generate increasingly concise, entity-dense summaries of the above documents. Repeat the following 2 steps 5 times.
+  - Step 1. Identify 1-3 informative Entities (";" delimited) from the documents which are missing from the previously generated summary.
+  - Step 2. Write a new, denser summary of identical length which covers every entity and detail from the previous summary plus the Missing Entities. A Missing Entity is:
+    - Relevant: to the main story.
+    - Specific: descriptive yet concise (5 words or fewer).
+    - Novel: not in the previous summary.
+    - Faithful: present in the documents.
+    - Anywhere: located anywhere in the documents.
+  - Instructions:
+    - The first summary should be long (4-5 sentences, ~80 words) yet highly non-specific, containing little information beyond the entities marked as missing. Use overly verbose language and fillers (e.g., "this article discusses") to reach ~80 words.
+    - Make every word count: rewrite the previous summary to improve flow and make space for additional entities.
+    - Make space with fusion, compression, and removal of uninformative phrases like "the document discusses".
+    - The summaries should become highly dense and concise yet self-contained, easily understood without the document.
+    - Missing entities can appear anywhere in the new summary.
+    - Never drop entities from the previous summary. If space cannot be made, add fewer new entities.
+Chain_of_verificiation: |
+  Peform the following verification steps before generating your final response:
+  1. Generate Baseline Response: Given the above instructions, generate the response using the LLM.
+  2. Plan Verifications: Given both instructions and baseline response, generate a list of verification questions that could help to self-analyze if there are any mistakes in the original response.
+  3. Execute Verifications: Answer each verification question in turn, and hence check the answer against the original response to check for inconsistencies or mistakes.
+  4. Generate Final Verified Response: Given the discovered inconsistencies (if any), generate a revised response incorporating the verification results.
+  5. Provide the final response as a json object only without verbose text such as "Here is the final verified response".
