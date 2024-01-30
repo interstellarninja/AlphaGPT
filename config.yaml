@@ -1,0 +1,7 @@
+# config.yaml
+paths:
+  prompt_yaml: "/Users/air/Documents/agi_projects/AlphaGPT/prompt_assets/prompt.yaml"
+  examples_json: "/Users/air/Documents/agi_projects/AlphaGPT/prompt_assets/examples.json"
+  output_json: "/Users/air/Documents/agi_projects/AlphaGPT/prompt_assets/output_schema.json"
+  coverage_csv: "/Users/air/Documents/agi_projects/AlphaGPT/prompt_assets/coverage.csv"
+  results_path: "/Users/air/Documents/agi_projects/AlphaGPT/results"
